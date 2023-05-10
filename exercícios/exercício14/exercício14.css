@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+ body {
+	 font-family: Arial;
+	 background-color: rgb(0, 0, 102);
+	 background-image: url('/home/joaopaulo/Imagens/Water-Bubbles-PNG-Picture.png');
+	 background-repeat: round;
+ }
+ 
+ h1 {
+	 color: rgb(51, 255, 255);
+	 text-shadow: 2px 2px 1px black;
+ }
+ 
+ p {
+	 background-color: lightsteelblue;
+	 text-align: justify;
+	 text-indent: 20px;
+ }
+ 
+ h2 {
+	 color: red;
+	 text-shadow: 2px 2px 2px black;
+ }
+ 
+ img {
+	 width: 300px;
+	 border-style: inset;
+	 display: block;
+ }

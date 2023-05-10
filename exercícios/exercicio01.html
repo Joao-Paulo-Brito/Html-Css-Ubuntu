@@ -1,0 +1,34 @@
+<!DOCKTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Exercicio01</title>
+</head>
+<body>
+	<h2>Código em C para calcular média: </h2>
+	<code>
+	<pre>
+		#include <stdio.h>
+		#include <stdlib.h>
+		#include <locale.h>
+		
+		main (){
+			setlocale(LC_ALL"Portuguese")
+			
+			int valor1, valor2;
+			float media;
+			
+			printf("Escreva um valor : ");
+			scanf("%d", &valor1);
+			printf("Escreva outro valor : ");
+			scanf("%d", &valor2);
+			media=(valor1+valor2)/2
+			
+			printf("\nA média entre %d e %d é igual a : %.2f\n", valor1, valor2, media);
+			
+			return(0);
+		}
+	</pre>
+	</code>
+</body>
+</html>

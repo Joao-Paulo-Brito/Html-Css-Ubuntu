@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#menu{
+	display: flex;
+	justify-content: flex-end;
+	color: white;
+	background-color: black;
+	list-style: none;
+	
+}
+
+#menu li{
+	display: inline;
+	padding: 25px;
+}
+
+#menu li a{
+	color: white;
+	text-decoration: none;
+	padding: 2px;
+}
+
+#menu li a:hover{
+	color: red;
+	transition: 0.4s;
+	text-decoration: underline;
+}
+
+#menu li a:active{
+	color: yellow;
+}
+
+#menu li:active{
+	color: yellow;
+	background-color: purple;
+	transition: 0.1s;
+}
+
+a::before{
+	content: '»';
+}
+
+a::after{
+	content: '«';
+}

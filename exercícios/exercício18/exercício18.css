@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+.container{
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.bnt{
+	border: none;
+	margin: 20px;
+	padding: 24px;
+	width: 220px;
+	font-family: serif;
+	text-transform: uppercase;
+	border-radius: 6px;
+	cursor: pointer;
+	background-image: linear-gradient(to left, #9dfdc7, #61d2b4, #367591, #152744);
+	color: white;
+	font-size: 19px;
+	transition: 0.4s;
+	background-size: 200%;
+}
+
+.bnt:hover{
+	background-position: right;
+	transform: scale(1.1);
+}
+
+.bnt:active{
+	transform: scale(0.9);
+	color: #FFE932;
+}
