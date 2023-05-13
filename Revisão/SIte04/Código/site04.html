@@ -15,12 +15,42 @@
             <li><a href="#">Serviços</a></li>
             <li><a href="#">Ajuda</a></li>
             <li><a href="#">Sobre</a></li>
-            <a href="#"><button class="btn">Login</button></a>
+            <a href="#"><button id="btn">Login</button></a>
         </ul>
         <hr>
     </nav>
     <header>
-        <h1></h1>
+        <div class="login">
+            <div class="login-email">
+                <h2>Login</h2>
+                <input type="text" placeholder="Login" id="login">
+                <label>E-mail</label>
+            </div>
+            <div class="login-senha">
+                <input type="password" placeholder="Senha" id="senha">
+                <label>Senha</label>
+            </div>
+            <button class="btn-enviar" onclick="enviar()">Enviar</button>
+        </div>
     </header>
+    <script>
+        function enviar(){
+            //  Variáveis
+            var login = document.getElementById('login').value;
+            var senha = document.getElementById('senha').value;
+
+            //Condições
+            if(
+                (login == 'sammy' && senha == 'love') || 
+                (login == 'Sammy' && senha == 'Love') || 
+                (login == 'Sammy' && senha == 'love') ||
+                (login == 'sammy' && senha == 'Love')
+            ){
+                alert("Acesso concedido😘❤️")
+            }else{
+                alert('Acesso bloqueado')
+            }
+        }
+    </script>
 </body>
 </html>

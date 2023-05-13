@@ -48,7 +48,7 @@ hr{
     border-radius: 25px;
 }
 
-.btn{
+#btn{
     background-color: transparent;
     color: white;
     padding: 15px;
@@ -62,13 +62,60 @@ hr{
     font-family: serif;
 }
 
-.btn:hover{
+#btn:hover{
     transform: scale(1.2);
     color: black;
     background-color: white;  
 }
 
-.btn:active{
+#btn:active{
     transform: scale(1);
     transition: 0.1s;
+}
+
+.login{
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    font-size: 24px;
+    left: 35%;
+    top: 35%;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border: 1px solid white;
+    padding: 70px;
+    width: 400px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.btn-enviar{
+    padding: 5px;
+    margin: 10px auto;
+    width: 196px;
+    color: white;
+    background-image: linear-gradient(to left, #C07F00, #4C3D3D);
+    border: 1px solid white;
+    font-weight: bold;
+    background-size: 200%;
+    transition-duration: 0.5s;
+}
+
+.btn-enviar:hover{
+    background-position: right;
+    transform: scale(1.1);
+}
+
+.btn-enviar:active{
+    transform: scale(1);
+    transition: 0.1s;
+}
+
+input{
+    margin-top: 15px;
+    width: 196px;
+    height: 23px;
+}
+
+label{
+    font-size: 18px;
 }
