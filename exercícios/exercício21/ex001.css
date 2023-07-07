@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+body{
+    background-color: aqua;
+    margin: auto;
+    width: 80%;
+    height: ;
+}
+
+h1{
+    text-align: center;
+    padding: 10px;
+    color: green;
+}
+
+p{
+    text-align: justify;
+    text-indent: 10px;
+    line-height: 20px;
+}
