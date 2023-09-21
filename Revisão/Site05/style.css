@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header h2{
+    color: white;
+    display: inline;
+    justify-content: center;
+}
+
+#menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+#menu a{
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+    color: white;
+    padding: 20px;
+    transition: 0.5s;
+}
+
+/*Animação*/
+#menu a:hover{
+    color: red;
+    border: 1px solid white;
+    padding: 15px;
+    border-radius: 20px;
+}
