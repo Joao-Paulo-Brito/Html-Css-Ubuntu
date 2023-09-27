@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundo002</title>
+    <style>
+        .bloco{
+            background-image: url("img/wallpaper002.jpg");
+            height: 200px;
+            margin: 10px auto;
+            width: 1200px;
+            border: 1px solid black;
+            border-radius: 20px;
+            filter: brightness(0.6);
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            color: white;
+            text-transform: uppercase;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        #q1{
+            background-position: left top;
+        }
+
+        #q2{
+            background-position: left center;
+        }
+
+        #q3{
+            background-position: right bottom;
+        }
+
+        #q4{
+            background-position: right center;
+        }
+
+        .bloco:hover{
+            filter: brightness(1);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="bloco" id="q1">
+        <div class="texto">
+            <h2>quadrado 1</h2>
+        </div>
+    </div>
+    <div class="bloco" id="q2">
+        <div class="texto">
+            <h2>quadrado 2</h2>
+        </div>
+    </div>
+    <div class="bloco" id="q3">
+        <div class="texto">
+            <h2>quadrado 3</h2>
+        </div>
+    </div>
+    <div class="bloco" id="q4">
+        <div class="texto">
+            <h2>quadrado 4</h2>
+        </div>
+    </div>
+</body>
+</html>
