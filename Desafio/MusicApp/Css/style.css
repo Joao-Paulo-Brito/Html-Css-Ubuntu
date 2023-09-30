@@ -9,7 +9,7 @@
 body{
     background-image: url("../images/pattern-background-desktop.svg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 1550px;
     background-color: hsl(224, 100%, 76%);
 }
 
@@ -52,20 +52,69 @@ main p{
     border-radius: 30px;
 }
 
-.plan h3{
-    padding-right: 179px;
-}
-
-.plan p, h3{
-    margin: 5px;
-    padding-right: 150px;
-    display: inline;
-}
-
 .plan img{
     float: left;
     padding-top: 2px;
 }
 
+.plan h3, p, a{
+    margin: 0;
+    padding: 0;
+}
+
+.plan h3, p{
+    margin-bottom: 10px;
+    margin-right: 160px;
+}
+
+.plan p{
+    padding-bottom: 40px;
+    padding-right: 164px;
+}
+
 .plan a{
+    position: absolute;
+    top: 432px;
+    left: 58%;
+}
+
+button{
+    display: block;
+    margin: auto;
+    margin-bottom: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.btn1{
+    width: 350px;
+    padding: 15px;
+    background-color: blue;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-shadow: 1px 1px 1px black;
+    box-shadow: 1px 1px 10px black;
+}
+
+.btn2{
+    width: 350px;
+    padding: 15px;
+    background-color: white;
+    color: gray;
+    border: none;
+}
+
+button:hover{
+    transform: scale(1.1);
+    color: red;
+}
+
+button:active{
+    transform: scale(1);
+}
+
+.btn1:hover{
+    color: #ff00ee;
 }
