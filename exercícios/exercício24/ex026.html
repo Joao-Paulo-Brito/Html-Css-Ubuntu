@@ -6,16 +6,25 @@
     <title>fundo003</title>
     <style>
         body{
+            /*
             height: 100vh;
             background-color: black;
             background-image: url(img/wallpaper002.jpg);
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
+
+            /*
+                Shorthand - Background
+                color > image > position > repeat > [size]*Não funciona ainda > attachmente
+            */
+            background: black url(img/wallpaper002.jpg) center center no-repeat fixed;
+            background-size: cover;
         }
 
         .texto{
-            width: 500px;
+            max-width: 700px;
             background-color: white;
             text-shadow: 1px solid white;
             margin: auto;
